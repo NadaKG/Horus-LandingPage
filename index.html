@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Horus</title>
+</head>
+
+<body>
+    <div id="body">
+        <div class="container">
+            <div class="row">
+                <img src="assets/1.webp" class="firstimg" style="padding-bottom: 30px;">
+            </div>
+            <div class="row">
+                <button class="gold-button" id="scrollButton">أشتري الآن وادفع لاحقا عند الإستلام</button>
+            </div>
+            <div class="row">
+                <img src="assets/2.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <img src="assets/3.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <img src="assets/4.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <div class="video-container">
+                    <img src="assets/5.webp" class="firstimg">
+                    <video autoplay muted loop class="overlay-video" controls loading="lazy">
+                        <source src="assets/led - Made with Clipchamp.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="row">
+                <img src="assets/6.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <img src="assets/7.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <img src="assets/8.webp" class="firstimg">
+            </div>
+            <div class="row">
+                <button class="gold-button" style="margin-top: 20px; margin-bottom: 70px;" id="scrollButton2">أشتري الآن
+                    واحصلي على توصيل
+                    مجاني</button>
+            </div>
+            <div class="row">
+                <h4 style="text-align: center; margin-bottom: 40px;" id="title"><strong>الأسئلة الشائعة حول
+                        المنتج</strong></h4>
+                <div class="faq-container">
+                    <div class="faq-item" onclick="toggleFAQ.call(this)">
+                        <div class="faq-question">
+                            هل تقبلون الدفع عند الإستلام </div>
+                        <div class="faq-answer">
+                            لن تدفع شيئا حتى يصلك المنتج وتقوم بمعاينته بنفسك </div>
+                    </div>
+                    <!-- Repeat for other FAQs -->
+                    <div class="faq-item" onclick="toggleFAQ.call(this)">
+                        <div class="faq-question">
+                            كم فترة التوصيل ؟ </div>
+                        <div class="faq-answer">
+                            من 24 الى 48 ساعة بعد تاكيد طلبك
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFAQ.call(this)">
+                        <div class="faq-question">
+                            هل يمكن إرجاع المنتج إذا لم يعجبني ؟ </div>
+                        <div class="faq-answer" style="height: fit-content;">
+                            يمكن الإرجاع أو الاستبدال إذا كان المنتج بنفس حالته الأصلية عند الشراء ومغلفا بالغلاف الأصلي
+                            ولم يتم استعماله او فتحه ابدا .
+                            طلب الاسترجاع يتم خلال ثلاثة (3) أيام من تاريخ الاستلام ولن ينظر فى اى طلب بعد انتهاء المدة
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-center mb3 mt3" style="font-weight: 700;">أكثر من 3000 مبيعة</h3>
+                <br><br> <br> <br>
+                <div class="text-center mb3 mt3" style="font-size: 31px;">من اراء عملائنا</div>
+            </div>
+            <!-- START OF TESTIMONAIL -->
+            <div class="row">
+                <div>
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/facebook-female-profile-icon-67.webp">
+                            </div><br>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class="testimonial-content">
+                                <p>انا أحب الأضواء تمامًا، فهي مشرقة، وأحب الطريقة الذي يمكنني ضبط السطوع فيه والقيام
+                                    بما يجب القيام به! الآن أستطيع أن أستيقظ في منتصف الليل للحصول على الماء ولا داعي
+                                    للقلق بشأن إضاءة الأضواء في المطبخ
+                                </p>
+                            </div>
+                            <h3 class="testimonial-title">
+                                <small> ام ضاري</small>
+                            </h3>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/facebook-female-profile-icon-67.webp">
+                            </div><br>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class="testimonial-content">
+                                <p>انالقد وجدت أن هذه الأضواء مفيدة بشكل
+                                    لا يصدق في المناطق التي تحتاج إلى إضاءة إضافية، مثل الخزانات المظلمة أو السلالم.
+                                    توفر مصابيح
+                                    LED الـ 40 إضاءة وافرة دون أن تكون قاسية جدًا، مما يخلق جوًا مريحًا وجذابًا.
+                                <p>
+                                </p>
+                            </div>
+                            <h3 class="testimonial-title">
+                                <small> ام فيصل</small>
+                            </h3>
+                        </div>
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/facebook-female-profile-icon-67.webp">
+                            </div> <br>
+
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class="testimonial-content">
+                                <p>هذه الأضواء خيارًا مثاليًا
+                                    لعشاق الأعمال اليدوية وأولئك الجدد في مشاريع تحسين المنزل. تضمن أدوات التثبيت
+                                    المرفقة
+                                    والتعليمات الواضحة تشغيل الأضواء في وقت قصير، مما يعزز المظهر الجمالي للغرفة
+                                    على الفور. إنه حرفيًا مجرد تقشير ولصق، والأضواء قابلة للإزالة بالمغناطيس.
+                                </p>
+                            </div>
+                            <h3 class="testimonial-title">
+                                <small> اسماء </small>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF TESTIMONAIL -->
+            <div class="row">
+                <button class="gold-button2" style="margin-top: 20px; margin-bottom: 70px;" id="scrollButton3">أطلبه
+                    الآن قبل نفاذ
+                    الكمية</button>
+            </div>
+        </div>
+    </div>
+    <!-- END OF BODY -->
+    <!-- START OF ORDERING SECTION -->
+    <div id="order" style="background-color: rgb(255 250 241);">
+        <div class="row justify-content-md-center" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="col-md-6">
+                <div class="card shadow border-0 mt-1 checkout-container">
+                    <div class="card-body">
+                        <h5 class="card-title" style="direction: rtl;">للطلب عبر الواتساب</h5><br>
+                        <form id="whatsappForm">
+                            <div class="mb-3" style="direction: rtl;">
+                                <label for="fullName" class="form-label">الاسم الكامل</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="ادخل اسمك الكامل">
+                            </div>
+                            <div class="mb-3" style="direction: rtl;">
+                                <label for="phone" class="form-label ">رقم الهاتف</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="965+"
+                                    style="direction: rtl;">
+                            </div>
+                            <div class="mb-3" style="direction: rtl;">
+                                <label for="details" class="form-label">تفاصيل الطلب</label>
+                                <textarea class="form-control" id="details"
+                                    placeholder="ادخل تفاصيل طلبك هنا"></textarea>
+                            </div>
+                            <button type="button" onclick="sendWhatsAppMessage()" class="btn"
+                                style="background-color: #caa321; color: #ffffff;">أرسل
+                                طلبك</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-2">
+            <a href="https://wa.me/96556544679?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A7%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9%20%D9%81%D9%8A..."
+                target="_blank" style="color: green; font-size: 22px;">
+                <i class="bi bi-whatsapp"></i></a>
+            للدعم الفني | المهندس ابراهيم
+        </div>
+        <hr>
+        <p class="text-center mt-2" style="font-size: 20px; font-family: Calibri, Arial, sans-serif; font-weight: 400;">
+            جميع الحقوق محفوظة. 2024 &copy;</p>
+    </div>
+  <div>
+</div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        function toggleFAQ() {
+            var faqAnswer = this.querySelector('.faq-answer');
+            if (faqAnswer.style.maxHeight && faqAnswer.style.maxHeight !== '0px') {
+                faqAnswer.style.maxHeight = '0';
+                faqAnswer.style.paddingTop = '0';
+                faqAnswer.style.paddingBottom = '0';
+            } else {
+                faqAnswer.style.maxHeight = faqAnswer.scrollHeight + 'px';
+                faqAnswer.style.paddingTop = '20px';
+                faqAnswer.style.paddingBottom = '47px';
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#testimonial-slider').owlCarousel({
+                items: 1,
+                itemsDesktop: [1000, 1],
+                itemsDesktopSmall: [979, 1],
+                itemsTablet: [768, 1],
+                pagination: false,
+                navigation: true,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+    <script>
+        function sendWhatsAppMessage() {
+            const fullName = document.getElementById('fullName').value;
+            const phone = document.getElementById('phone').value;
+            const details = document.getElementById('details').value;
+
+            const encodedMessage = encodeURIComponent(
+                `مرحبا, ${fullName} .!\nالرقم: ${phone}\nتفاصيل الطلب: ${details}`
+            );
+            const whatsappUrl = `https://wa.me/96595514798?text=${encodedMessage}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+    <script>
+        document.getElementById('scrollButton').addEventListener('click', function () {
+            const targetSection = document.getElementById('order');
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    </script>
+    <script>
+        document.getElementById('scrollButton2').addEventListener('click', function () {
+            const targetSection = document.getElementById('order');
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    </script>
+    <script>
+        document.getElementById('scrollButton3').addEventListener('click', function () {
+            const targetSection = document.getElementById('order');
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    </script>
+</body>
+</html>
